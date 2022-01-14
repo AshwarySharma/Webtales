@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding:0;
+    font: Century Gothic;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("https://media.cntraveler.com/photos/58d2c0a97e623821b9f3181d/16:9/w_2048,h_1152,c_limit/yoshinoyama--japan-GettyImages-488852217.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: auto;
+}
+
+/*
+    nav bar designing starts here :)
+*/
+.hover_info li{
+   text-align: justify;
+   display: inline;
+   border: transparent 2px solid;
+   padding-left: 2px;
+   justify-content: center;
+   color:black;
+   background-color:transparent;
+    border-radius: 5px;
+    color:transparent;
+}
+
+img.logo{
+    height: 150px;
+    margin-top:-40px;
+    margin-left: 20px;
+}
+
+.nav_bar ul li{
+    margin-top:30px;
+    float: right;
+    display: inline;
+    
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 25px;
+    border: 2px transparent solid;
+    transition: 0.6s ease;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.nav_bar ul li a:hover{
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 2px 4px ;
+}
+.nav_bar ul li a.active{
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    box-shadow: black 2px 2px 2px 4px ;
+}
+.what h1.big_bro{
+    padding: 70px 0;
+    text-align: center;
+    color:white;
+    font-size: 80px;
+    margin-top:5%;
+    color:wheat;
+}
+button{
+    border:2px transparent solid;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    margin-top: -30%;
+ 
+}
+button.one{
+    margin-left:28%;
+}
+button.two{
+    margin-left: 5%;
+}
+button a{
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: .9s ease;
+    background-color:transparent;
+    padding: 10px;
+}
+button a:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: .9s ease;
+    padding:10px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 50px;
+    
+}
+.ns{
+    color:black;
+    background:  url("https://i2.wp.com/css-tricks.com/wp-content/uploads/2018/12/gradient-border.png?fit=1200%2C600&ssl=1");
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-right:-20px;
+    height: 80vh;
+    width:170vh;
+    border-radius: 20px;
+    margin-top:-15;
+    background-repeat: repeat-y;
+}
+.ns h3{
+    color:aqua;
+    font-weight: lighter;
+    
+    font-size: 40px;
+}
+
+.ns p{
+    color:bisque;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 25px;
+}
+.ns span{
+    color:blue;
+}
+.ns a{
+    text-decoration: none;
+}
+.ref{
+    margin-top:-15%;
+    color:white;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    border: 2px wheat dashed
+}
+.end{
+    width:100%;
+    height:auto;
+    position: relative;
+    vertical-align: bottom;
+    color:white;
+    background-color:linear-gradient(rgb(0, 0, 0, 0), rgba(0,0,0,0)), url("https://www.japan-zone.com/features/pix/019/reflecting-fujisan.jpg")   ;
+    box-shadow: 50px 50px 90px 50px gray;
+    text-align: center;
+
+}
+.heading{
+    text-decoration: underline;
+    color: coral;
+    font-size: 40px;
+}
+.abt{
+    font-size: 30px;
+}
+.abt a{
+    text-decoration: none;
+    color:white;
+}
+.culture_show{
+    
+    height:600px;
+    width:90%;
+    position:relative;
+    vertical-align: bottom;
+    left:50px;
+    margin-top:2px;
+    background-image: url("https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amFwYW5lc2UlMjBjdWx0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: 100%, 100%;
+    box-shadow: 5px 5px 10px 10px burlywood;
+    animation: slider 9s infinite;
+    background-position: center;
+    
+    
+}
+@keyframes slider{
+    5%{background-image: url("https://static.gltjp.com/glt/prd/data/article/21000/20037/20200325_235147_97e80326_w1920.jpg")
+    }
+    50%{background-image: url("https://jobsinjapan.com/wpdata/wp-content/uploads/2021/11/culture_day_1.jpg")}
+    75%{background-image: url("https://image.freepik.com/free-vector/japan-travel-japanese-culture-set-illustrations-traditional-symbols-japanese-architecture-torii-gate-sakura-geisha-samurai-lantern-fuji-sushi-koi-carps_109722-2303.jpg");}
+    100%{background-image: url("https://res-4.cloudinary.com/jnto/image/upload/w_900,h_900,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/74/cf/74cf6354-c2bb-4cd8-ac9a-b6540b779898/shutterstock_371955106-1480x524-c-default_omelfx_muo6lb");}
+}
+.culture_back{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://media.istockphoto.com/photos/mt-fuji-japan-picture-id685220630?k=20&m=685220630&s=612x612&w=0&h=hpw6GgX73OtgNcPG4Kn6Au6RT0rr6A8JhZmmwSrroqg=");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    position: relative;
+    
+}
+.always_title{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 35px;
+
+}
+p.always_body{
+    color:cyan;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.always_titles{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.geo{
+    
+    height:600px;
+    width:90%;
+    position:relative;
+    vertical-align: bottom;
+    left:50px;
+    margin-top:2px;
+    background-image: url("https://render.fineartamerica.com/images/rendered/search/print/8/8/break/images/artworkimages/medium/1/japan-3d-render-topographic-map-neutral-border-frank-ramspott.jpg");
+    background-size: 100%, 100%;
+    box-shadow: 5px 5px 10px 10px burlywood;
+    animation: geo 9s infinite;
+    background-position: center;
+    
+    
+}
+@keyframes geo{
+    0%{background-image: url("https://assets.sutori.com/user-uploads/image/e60e4e45-66b6-487d-a1b9-6d98a5142e7d/2898f6d10772b78f80a191a7d7c6dede.png")
+    }
+    25%{background-image: url("https://www.ducksters.com/geography/country/japan_mount_fuji.jpg")}
+    55%{background-image: url("https://slidetodoc.com/presentation_image/27a515eb38f32b61cae30ccbcc5133e9/image-3.jpg");}
+    70%{background-image: url("https://www.japanvisitor.com/images/content_images/latespring2018.jpg");}
+}
+ol li.Content_Head{
+    color:black;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    list-style-type:none ;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 35px;
+    }
+.row_head{
+    display: inline;
+}
+img.image{
+    margin-left: 240px;
+    border-radius: 25px;
+    background-position: center;
+}
+.speciallity{
+    color:aqua;
+    text-align:justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.about{
+    text-align: center;
+    color:aqua;
+    text-align:justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+
+}
+.sources{
+    position: relative;
+    float:left;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("blob:https://web.whatsapp.com/895b5b1c-915b-4ad4-b80a-6134bdebcfec");
+    width:100%;
+    height:auto;
+    
+}
+.heading{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("blob:https://web.whatsapp.com/895b5b1c-915b-4ad4-b80a-6134bdebcfec");
+    width:100%;
+    height:auto;
+    float: left;
+}
+.abut{
+    font-size: 30px;
+    color:white;
+    margin-left: 170px;
+}
+.headingxyz{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 35px;
+}
